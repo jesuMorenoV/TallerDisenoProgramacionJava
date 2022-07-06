@@ -8,15 +8,14 @@ public class Tripulada extends Nave {
 
     @Override
     public void funcion() {
+        System.out.println("\nNAVE TIPO TRIPULADA");
         System.out.println("Consiste en mandar seres humanos al espacio para tareas de reparación, mantenimiento o investigación");
     }
 
     @Override
     public String toString() {
-        return "Tripulada{" +
-                "capacidadPersonas='" + capacidadPersonas + '\'' +
-                super.toString()+'\'' +
-                '}';
+        return  "\nDatos de la nave: " +super.toString()+
+                "\nCapacidad de Personas= " + capacidadPersonas;
     }
 
     public String getCapacidadPersonas() {

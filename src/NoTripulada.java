@@ -9,15 +9,14 @@ public class NoTripulada extends Nave{
 
     @Override
     public void funcion() {
+        System.out.println("\nNAVE TIPO NO TRIPULADA");
         System.out.println("Estudiar otros cuerpos celestes");
     }
 
     @Override
     public String toString() {
-        return "NoTripulada{" +
-                "tipoEstudio='" + tipoEstudio + '\'' +
-                super.toString()+'\'' +
-                '}';
+        return "\nDatos de la nave: " +super.toString()+
+                "\nTipo de Estudio= " + tipoEstudio;
     }
 
     public String getTipoEstudio() {

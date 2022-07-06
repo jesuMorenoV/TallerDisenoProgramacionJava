@@ -31,11 +31,10 @@ public abstract class Nave {
 
     @Override
     public String toString() {
-        return "Nave{" +
-                "nombre='" + nombre + '\'' +
-                ", tipoCombustible='" + tipoCombustible + '\'' +
-                ", paisOrigen='" + paisOrigen + '\'' +
-                ", anioLansamiento='" + anioLansamiento + '\'' +
-                '}';
+        return
+                "\nNombre= " + nombre  +
+                "\nTipo de Combustible= " + tipoCombustible  +
+                "\nPais de origen= " + paisOrigen +
+                "\nAño de lanzamiento= " + anioLansamiento ;
     }
 }

@@ -11,16 +11,16 @@ public class VehiculoLanzadera extends Nave{
 
     @Override
     public void funcion() {
+        System.out.println("\nNAVE TIPO LANZADERA");
         System.out.println("Sirve para lanzar una carga útil al espacio, normalmente un satélite artificial, una sonda o una nave tripulada.");
     }
 
     @Override
     public String toString() {
-        return "VehiculoLanzadera{" +
-                "capasidadCarga='" + capasidadCarga + '\'' +
-                ", tipoCarga='" + tipoCarga + '\'' +
-                super.toString()+'\'' +
-                '}';
+        return  "\nDatos de la nave: " +super.toString()+
+                "\nCapasidad de carga= " + capasidadCarga +
+                "\nTipo de carga= " + tipoCarga;
+
     }
 
     public String getCapasidadCarga() {
